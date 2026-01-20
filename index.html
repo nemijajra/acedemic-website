@@ -2,72 +2,105 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <title>Your Name | Academic Website</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Your Name | Academic Portfolio</title>
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+<!-- ================= HEADER ================= -->
 <header>
-  <div class="container">
-    <img src="profile.jpeg" alt="Profile Photo" class="profile-photo">
-    <h1>Nemichand</h1>
-    <h3>PhD Scholar | Indian Institute of Technology Kanpur</h3>
-  </div>
+  <nav class="container">
+    <div class="logo">Your Name</div>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#research">Research</a></li>
+      <li><a href="#publications">Publications</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
 </header>
 
-<section id="about">
-  <div class="container">
-    <h2>About Me</h2>
-    <p>I am a research scholar in biomedical Physics with research interests in fluorescence
-spectroscopy, optical diagnostics, and biomedical instrumentation. My work involves the
-development and optimization of optical devices for early detection of oral and cervical cancer,
-with an emphasis on clinically translatable and cost-effective solutions.</p>
+<!-- ================= HERO ================= -->
+<section class="hero container">
+  <h1>Your Name</h1>
+  <p>PhD Scholar | Research Area | Institute Name</p>
+</section>
+
+<!-- ================= ABOUT ================= -->
+<section id="about" class="container">
+  <h2 class="section-title">About Me</h2>
+  <div class="profile">
+    <img src="assets/profile.jpg" alt="Profile Photo">
+    <div class="bio">
+      <p>
+        I am a PhD researcher at <strong>Your Institute</strong>. 
+        My research focuses on <strong>your research area</strong>, including
+        imaging systems, biomedical instrumentation, and data analysis.
+      </p>
+      <p>
+        I am interested in translational research and real-world clinical applications.
+      </p>
+    </div>
   </div>
 </section>
 
-<section id="education">
-  <div class="container">
-    <h2>Education & Affiliation</h2>
-    <ul>
-      <li>PhD, Biomedical Engineering, XYZ University, 2026</li>
-      <li>M.Tech, Optical Engineering, ABC University, 2023</li>
-    </ul>
-    <p>Current Position: Research Scholar, Department of Biomedical Engineering</p>
+<!-- ================= RESEARCH ================= -->
+<section id="research" class="container">
+  <h2 class="section-title">Research Interests</h2>
+  <ul>
+    <li>Biomedical Optics</li>
+    <li>Fluorescence Spectroscopy</li>
+    <li>Medical Imaging Systems</li>
+    <li>Signal & Data Analysis</li>
+  </ul>
+</section>
+
+<!-- ================= PUBLICATIONS ================= -->
+<section id="publications" class="container">
+  <h2 class="section-title">Publications</h2>
+
+  <div class="cards">
+    <div class="card">
+      <h3>Title of the Paper</h3>
+      <p>
+        Author1, Author2, <strong>Your Name</strong><br>
+        <em>Journal / Conference</em>, Year
+      </p>
+      <a href="#" class="btn">PDF</a>
+    </div>
+
+    <div class="card">
+      <h3>Another Research Article</h3>
+      <p>
+        Author1, <strong>Your Name</strong><br>
+        <em>Journal / Conference</em>, Year
+      </p>
+      <a href="#" class="btn">PDF</a>
+    </div>
   </div>
 </section>
 
-<section id="research">
-  <div class="container">
-    <h2>Research Interests</h2>
-    <ul>
-      <li>Fluorescence-based optical devices</li>
-      <li>Cervical cancer diagnostics</li>
-      <li>Biomedical instrumentation</li>
-    </ul>
-  </div>
+<!-- ================= CONTACT ================= -->
+<section id="contact" class="container">
+  <h2 class="section-title">Contact</h2>
+  <p>
+    📧 Email: yourname@email.com <br>
+    🏛 Institute: Your Institute Name <br>
+    🔗 Google Scholar | ORCID | GitHub
+  </p>
 </section>
 
-<section id="publications">
-  <div class="container">
-    <h2>Publications</h2>
-    <ul>
-      <li><strong>Optimization of source-detector separation for enhanced spatially resolved fluorescence from the epithelial layer</strong>, SPIE 2024.</li>
-    </ul>
-  </div>
-</section>
-
-<section id="contact">
-  <div class="container">
-    <h2>Contact</h2>
-    <p>Email: yourname@example.com</p>
-  </div>
-</section>
-
+<!-- ================= FOOTER ================= -->
 <footer>
-  <div class="container">
-    <p>&copy; 2026 Your Name</p>
-  </div>
+  <p>© 2026 Your Name · Academic Website</p>
 </footer>
 
 </body>
