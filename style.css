@@ -164,8 +164,6 @@ nav ul li a:hover {
 /* ================= GALLERY ================= */
 /* ================= GALLERY ================= */
 
-/* ================= GALLERY ================= */
-
 .gallery-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -216,6 +214,7 @@ nav ul li a:hover {
   40%  { opacity: 0; }
   100% { opacity: 0; }
 }
+
 
 /* ================= CONTACT ================= */
 .contact-info {
