@@ -58,7 +58,7 @@ nav ul li a:hover {
 /* ================= HERO ================= */
 .hero {
   height: 100vh;
-  background: url("back1.jpeg") center/cover no-repeat;
+  background: url("back2.jpeg") center/cover no-repeat;
 }
 
 .hero-overlay {
